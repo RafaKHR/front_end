@@ -1,0 +1,9 @@
+<html>
+<head>
+<title> Curriculo </title>
+</head>
+<body>
+<img align = "left" alt = "imagem exemplo" src="perfil.jpg" height="700" width="700">
+
+
+<html>
