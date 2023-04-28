@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html><head><title>
+Minha página com Formulários</title></head>
+<body>
+
+<form method="post" action="mailto:seuemail@gmail.com">
+	<p>Nome:
+	<input type="text" placeholder="Digite o nome" size="10"
+		maxlength="40" name="name" /></p>
+	<p>Senha:
+	<input type="password" placeholder="Digite a senha" size="10"
+		maxlength="10" name="password" /></p>
+	<p><input type="submit" value="Enviar"></p>
+	<p><input type="reset" value="Limpar"></p>
+	
+	<hr>
+
+	<p>Qual cor e tamanho da camiseta?</p>
+
+	<p><label>Cor:</label></p>
+	<input type="radio" name="cor" value="azul" />
+		Azul <br />
+	<input type="radio" name="cor" value="branca" />
+		Branca <br />
+	<p><label>Tamanho:</label></p>
+	<input type="radio" name="tamanho" value="pequena" />
+		P <br />
+	<input type="radio" name="tamanho" value="media" />
+		M <br />
+	<input type="radio" name="tamanho" value="grande" />
+		G <br />
+
+	<hr>
+
+	<input type="checkbox" name="sapatos" value="preto" />
+		Preto <br />
+	<input type="checkbox" name="sapatos" value="branco" />
+		Branco <br />
+	<input type="checkbox" name="sapatos" value="cinza" />
+		Cinza <br />
+	<input type="checkbox" name="sapatos" value="marrom" />
+		Marrom <br />
+
+	<hr>
+
+	<p>Preferência musical</p>
+
+	<select multiple name="musical" size="4">
+		<option value="metal/rock"> Metal/Rock</option>
+		<option value="hiphop"> Hip Hop</option>
+		<option value="jazz"> Jazz</option>	
+		<option value="country"> Country</option>
+		<option value="sertaneja"> Sertaneja</option>
+	</select><br />
+
+	<hr>
+
+	<p>Nível de Escolaridade?</p>
+	
+	<select name="nivelescolaridade">
+		<option>Escolha</option>
+		<option>Ensino Médio</option>
+		<option>Nível Superior</option>
+		<option>Mestrado</option>
+		<option>Doutorado</option>
+		<option>Pós-Doutorado</option>
+	</select><br /> <br>
+
+	<hr>
+
+	<TEXTAREA COLS=40 ROWS=5 NAME="comentario">
+	Deixe seu comentario</TEXTAREA><br>
+
+	<hr>
+
+	<fieldset>
+		<legend>Dados pessoais</legend>
+		<p><label>Nome:<input type="text" placeholder="Digite o nome" name="nome" />
+			</label></p>
+		<p><label>Idade:<input type="text" placeholder="Digite o nome" name="idade" />
+			</label></p>
+	</fieldset>
+
+</form>
+</body>
+</html>
